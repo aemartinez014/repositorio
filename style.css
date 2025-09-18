@@ -1,0 +1,103 @@
+/* Fondo base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #ff7eb3, #8ec5fc);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px #0005;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Tarjetas */
+.card {
+  width: 220px;
+  background: #ffffffcc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #0002;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-content h2 {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff7eb3;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff5a9e;
+}
+
+.players {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.players ul {
+  padding: 0;
+  list-style: none;
+}
+
+.players li {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.tallas {
+  margin-top: 5px;
+  display: none;
+}
+
+.tallas button {
+  background: #8ec5fc;
+  margin: 2px;
+}
+
+.tallas button:hover {
+  background: #5da8f5;
+}
+
+
+
